@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>428</string>
+	<key>AMApplicationVersion</key>
+	<string>2.7</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>9</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Vorschau</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Set PDF Metadata.action</string>
+				<key>ActionName</key>
+				<string>PDF-Metadaten festlegen</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>authorAttr</key>
+					<string>Michel Döhring</string>
+					<key>authorFlag</key>
+					<true/>
+					<key>creatorAttr</key>
+					<string></string>
+					<key>creatorFlag</key>
+					<true/>
+					<key>keywordsAttr</key>
+					<array>
+						<string>Neues Schlagwort</string>
+						<string>Neues Schlagwort</string>
+						<string>Neues Schlagwort</string>
+					</array>
+					<key>keywordsFlag</key>
+					<true/>
+					<key>subjectAttr</key>
+					<string></string>
+					<key>subjectFlag</key>
+					<true/>
+					<key>titleAttr</key>
+					<string></string>
+					<key>titleFlag</key>
+					<true/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SetPDFMetadata</string>
+				<key>CFBundleVersion</key>
+				<string>9</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPDFs</string>
+				</array>
+				<key>Class Name</key>
+				<string>SetDocumentProperties</string>
+				<key>InputUUID</key>
+				<string>6C7BD22C-9523-4FB8-80C4-C9EE5469A1DA</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>A0F21129-1D28-4E58-9A27-9B0DD1B65C12</string>
+				<key>UUID</key>
+				<string>654DA60F-C681-4C70-A951-C99BF789E914</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Preview</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>325.500000:340.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Set PDF Metadata.action/Contents/Resources/German.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>serviceApplicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject.PDF</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
